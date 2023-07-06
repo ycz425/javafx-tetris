@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="titleController">
+   <children>
+      <ImageView fitHeight="427.0" fitWidth="619.0" layoutX="40.0" layoutY="80.0">
+         <image>
+            <Image url="@tetris-logo.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="297.0" layoutY="354.0" mnemonicParsing="false" onAction="#start" text="START">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
